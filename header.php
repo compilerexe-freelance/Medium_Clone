@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,17 +22,6 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/summernote/summernote.min.js"></script>
 <!--    <script src="assets/Semantic-UI-master/dist/semantic.min.js"></script>-->
-
-    <script>
-        $(document).ready(function() {
-            $('#summernote').summernote({
-                height: 500,                 // set editor height
-                minHeight: null,             // set minimum height of editor
-                maxHeight: null,             // set maximum height of editor
-                focus: false                  // set focus to editable area after initializing summernote
-            });
-        });
-    </script>
 
 </head>
 <body>

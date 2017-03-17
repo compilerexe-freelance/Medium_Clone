@@ -47,6 +47,11 @@
 
                             <i class="fa fa-eye" style="margin-left: 10px;"></i>
                             <span style="color: #a6a6a6; //margin-left: 10px;">2,000</span>
+
+                            <i class="fa fa-comment-o" style="margin-left: 10px;"></i>
+                            <span style="color: #a6a6a6; //margin-left: 10px;">5,000</span>
+
+                            <a href="#"><span class="font-color-gray pull-right">Bookmark <i class="fa fa-bookmark-o"></i></span></a>
                         </div>
                         <div class="form-group">
                             <hr>
@@ -57,7 +62,10 @@
                             <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 text-center" style="//border: 1px solid red">
                                 <div class="form-group" style="//margin-top: 20px;">
                                     <img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
-                                    <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro<br><span style="font-size: 14px; font-weight: normal;" class="font-color-gray">Profile describe ...</span></span>
+                                    <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro</span>
+                                </div>
+                                <div class="form-group">
+                                    <span style="font-size: 14px; font-weight: normal; //margin-left: 94px;" class="font-color-gray">Profile describe ...</span>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-2 col-md-offset-2 text-center" style="//border: 1px solid red">
@@ -81,7 +89,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="form-group">
-                                <h3>What's HTML</h3>
+                                <a href="#"><h3>What's HTML</h3></a>
                             </div>
                             <div class="form-group">
                                 <span style="font-size: 18px;" class="font-color-gray">Hello world! This is a test!!!</span>
@@ -98,6 +106,9 @@
 
                                         <i class="fa fa-eye" style="margin-left: 10px;"></i>
                                         <span style="color: #a6a6a6; //margin-left: 10px;">2,000</span>
+
+                                        <i class="fa fa-comment-o" style="margin-left: 10px;"></i>
+                                        <span style="color: #a6a6a6; //margin-left: 10px;">5,000</span>
                                     </div>
                                 </div>
 
@@ -110,7 +121,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="form-group">
-                                <h3>What's CSS</h3>
+                                <a href="#"><h3>What's CSS</h3></a>
                             </div>
                             <div class="form-group">
                                 <span style="font-size: 18px;" class="font-color-gray">Hello world! This is a test!!!</span>
@@ -127,6 +138,9 @@
 
                                         <i class="fa fa-eye" style="margin-left: 10px;"></i>
                                         <span style="color: #a6a6a6; //margin-left: 10px;">2,000</span>
+
+                                        <i class="fa fa-comment-o" style="margin-left: 10px;"></i>
+                                        <span style="color: #a6a6a6; //margin-left: 10px;">5,000</span>
                                     </div>
                                 </div>
 
@@ -139,7 +153,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="form-group">
-                                <h3>What's PHP</h3>
+                                <a href="#"><h3>What's PHP</h3></a>
                             </div>
                             <div class="form-group">
                                 <span style="font-size: 18px;" class="font-color-gray">Hello world! This is a test!!!</span>
@@ -156,6 +170,9 @@
 
                                         <i class="fa fa-eye" style="margin-left: 10px;"></i>
                                         <span style="color: #a6a6a6; //margin-left: 10px;">2,000</span>
+
+                                        <i class="fa fa-comment-o" style="margin-left: 10px;"></i>
+                                        <span style="color: #a6a6a6; //margin-left: 10px;">5,000</span>
                                     </div>
                                 </div>
 
@@ -164,11 +181,69 @@
                     </div>
                 </div>
 
-<!--            </div>-->
-<!--        </div>-->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-fulid">
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form-group">
+                            <span style="font-size: 14px; font-weight: bold;">RESPONSES</span>
+                        </div>
+                        <!-- Header -->
+                        <div class="form-group" style="margin-top: 20px;">
+                            <img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
+                            <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro</span>
+                        </div>
+                        <div class="form-group">
+                            <div id="summernote"></div>
+                        </div>
+                        <div class="form-group text-right" style="margin-top: 20px;">
+                            <button type="button" class="btn btn-success bg-success" style="background-color: #03B876 !important; font-size: 16px; width: 120px;">Publish</button>
+                            <button type="button" class="btn btn-success bg-success font-color-green" style="font-size: 16px; width: 120px;">Cancle</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-md-offset-3">
+                        <!-- Header -->
+                        <div class="form-group" style="margin-top: 20px;">
+                            <img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
+                            <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro <span class="font-color-gray pull-right">7 days ago</span></span>
+                        </div>
+                        <div class="form-group">
+                            <span style="font-size: 18px;">Detail 1 ...</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3">
+                        <!-- Header -->
+                        <div class="form-group" style="margin-top: 20px;">
+                            <img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
+                            <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro <span class="font-color-gray pull-right">10 days ago</span></span>
+                        </div>
+                        <div class="form-group">
+                            <span style="font-size: 18px;">Detail 2 ...</span>
+                        </div>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            toolbar: false,
+            height: 150,                 // set editor height
+            minHeight: null,             // set minimum height of editor
+            maxHeight: null,             // set maximum height of editor
+            focus: false                  // set focus to editable area after initializing summernote
+        });
+    });
+</script>
 
 <?php include "footer.php"; ?>

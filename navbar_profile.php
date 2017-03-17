@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
             </a>
         </div>
@@ -16,20 +16,18 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="#">Latest picks</a></li>
+                <li><a href="#">Following</a></li>
                 <li><a href="#">Top stories</a></li>
                 <li><a href="#">Bookmarks</a></li>
-                <li><a href="#">Editor's pick</a></li>
+                <li><a href="#">Knowledge</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <form class="navbar-form navbar-left text-center" action="#" method="post">
 
-                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <div class="form-inline">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search Stories" style="border-radius: 20px; //width: 150px;">
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <i class="fa fa-search fa-lg font-color-gray"></i>
+                        <input type="text" class="form-control" placeholder="Tag, Stories, People" style="border-radius: 20px;">
                     </div>
 
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
@@ -64,7 +62,7 @@
                             <a href='#'>New story</a><br>
                             <a href='#'>Drafts and stories</a>
                             <hr style='margin-top: 10px !important;; margin-bottom: 10px !important;'>
-                            <a href='#' style='font-size: 15px !important;'>Profile</a><br>
+                            <a href='profile.php' style='font-size: 15px !important;'>Profile</a><br>
                             <a href='#' style='font-size: 15px !important;'>Setting</a><br>
                             <a href='#' style='font-size: 15px !important;'>Sign out</a>
                            "
@@ -74,6 +72,16 @@
                                  class="img-circle"
                                  alt="">
                         </a>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Change to Thai</a></li>
+                            </ul>
+                        </li>
                     </div>
 
                 </form>

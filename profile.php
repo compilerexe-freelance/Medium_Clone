@@ -4,17 +4,25 @@
 <div class="container">
     <div class="row">
 
-        <div class="panel panel-default">
+        <img src="assets/images/cover.jpg" style="width: 100%; height: 250px;" alt="">
+
+        <div class="panel panel-default" style="-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;">
             <div class="panel-body">
 
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group text-right">
+                        <button type="button" class="btn btn-success btn-remove-shadow" style="border-radius: 20px; width: 130px; color: #03B876"><i class="fa fa-upload"></i> Edit Cover</button>
+                    </div>
+                </div>
+
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3" style="//border: 1px solid red; margin-top: 50px; margin-bottom: 50px;">
+
                     <div class="col-xs-12 col-sm-12 col-md-9" style="margin-top: 10px; //border: 1px solid blue; //padding-bottom: 32px;">
                         <div class="form-group">
-                            <span style="font-size: 30px; font-weight: bold;">Mr.John</span><br>
-                            <span style="font-size: 30px; font-weight: bold;">Snow</span>
+                            <span style="font-size: 30px; font-weight: bold;">Macbook Pro</span>
                         </div>
                         <div class="form-group" style="margin-top: 40px;">
-                            <span style="font-size: 18px;" class="font-color-gray"><b>0</b> Following <b>0</b> Followers</span>
+                            <span style="font-size: 18px;" class="font-color-gray"><b>0</b> Following <b>0</b> Followers <br><br><b>20</b> Tag Following <b>10,000</b> Like</span>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3" style="margin-top: 10px; //border: 1px solid red">

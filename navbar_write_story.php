@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
             </a>
         </div>
@@ -23,7 +23,7 @@
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
                         <button
                             type="button"
-                            class="btn btn-success btn-remove-shadow"
+                            class="btn btn-success"
                             style="border-radius: 20px; width: 100%; color: #03B876"
                             data-toggle="popover"
                             data-trigger="focus"
@@ -37,7 +37,7 @@
                             <input type='text' class='form-control border-none' placeholder='Tag 3'><br>
                             <input type='text' class='form-control border-none' placeholder='Tag 4'><br>
                             <input type='text' class='form-control border-none' placeholder='Tag 5'><br>
-                            <button type='button' class='btn btn-success' style='border-radius: 20px; width: 100%; color: #03B876; margin-top: 20px;'>Publish</button>
+                            <button type='button' class='btn btn-success btn-bg-green' style='border-radius: 20px; width: 100%; color: #03B876; margin-top: 20px;'>Publish</button>
                             ">
                             Publish <i class="fa fa-chevron-down"></i>
                         </button>
@@ -46,7 +46,7 @@
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
                         <button
                             type="button"
-                            class="btn btn-success btn-remove-shadow"
+                            class="btn btn-success"
                             style="-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; width: 100%; color: #808080; border: 1px solid #808080;"
                             data-toggle="popover"
                             data-trigger="focus"
@@ -80,6 +80,16 @@
                                  class="img-circle"
                                  alt="">
                         </a>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Change to Thai</a></li>
+                            </ul>
+                        </li>
                     </div>
 
                 </form>

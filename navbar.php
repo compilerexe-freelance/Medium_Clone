@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" style="border-radius: 0px;">
+<nav class="navbar navbar-default" style="border-radius: 0px; margin-bottom: 0px;">
     <div class="container">
 
         <div class="navbar-header">
@@ -8,36 +8,81 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
             </a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Latest picks</a></li>
-                <li><a href="#">Top stories</a></li>
-                <li><a href="#">Bookmarks</a></li>
-                <li><a href="#">Editor's pick</a></li>
+
+                <?php
+                    if ($_SESSION['active_menu'] == 'Latest picks') {
+                        echo "<li class='active'><a href='#'>Latest picks</a></li>";
+                    } else {
+                        echo "<li><a href='index.php'>Latest picks</a></li>";
+                    }
+
+                    if ($_SESSION['active_menu'] == 'Following') {
+                        echo "<li class='active'><a href='#'>Following</a></li>";
+                    } else {
+                        echo "<li><a href='following.php'>Following</a></li>";
+                    }
+
+                    if ($_SESSION['active_menu'] == 'Top stories') {
+                        echo "<li class='active'><a href='top_stories.php'>Top stories</a></li>";
+                    } else {
+                        echo "<li><a href='top_stories.php'>Top stories</a></li>";
+                    }
+
+                    if ($_SESSION['active_menu'] == 'Bookmarks') {
+                        echo "<li class='active'><a href='#'>Bookmarks</a></li>";
+                    } else {
+                        echo "<li><a href='bookmarks.php'>Bookmarks</a></li>";
+                    }
+
+                ?>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Knowledge
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">OSX</a></li>
+                    </ul>
+                </li>
+
+<!--                <li><a href="#">Latest picks</a></li>-->
+<!--                <li><a href="#">Following</a></li>-->
+<!--                <li><a href="#">Top stories</a></li>-->
+<!--                <li><a href="#">Bookmarks</a></li>-->
+<!--                <li><a href="#">Knowledge</a></li>-->
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <form class="navbar-form navbar-left" action="#" method="post">
 
-                        <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                            <div class="form-inline">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search Stories" style="border-radius: 20px; //width: 150px;">
-                                </div>
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <i class="fa fa-search fa-lg font-color-gray"></i>
+                        <input type="text" class="form-control" placeholder="Tag, Stories, People" style="border-radius: 20px;">
+                    </div>
+                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
+                        <button type="button" class="btn btn-info btn-remove-hover" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>
+                    </div>
+                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
+                        <button type="button" class="btn btn-success btn-remove-hover" id="btn-sign-in" style="border-radius: 20px; width: 100%; color: #03B876"">Sign In / Sign Up</button>
+                    </div>
+                    <div class="form-group text-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Change to Thai</a></li>
+                            </ul>
+                        </li>
+                    </div>
 
-                        <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                            <button type="button" class="btn btn-info btn-remove-hover" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>
-                        </div>
-                        <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                            <button type="button" class="btn btn-success btn-remove-hover" id="btn-sign-in" style="border-radius: 20px; width: 100%; color: #03B876"">Sign In / Sign Up</button>
-                        </div>
                 </form>
 
             </ul>
@@ -77,6 +122,13 @@
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control input-lg border-none" style="font-size: 20px;" placeholder="Password" required>
+                    </div>
+                    <div class="form-group text-right">
+                        <div class="checkbox">
+                            <label class="font-color-gray">
+                                <input type="checkbox"> Remember
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group" style="margin-top: 20px;">
                         <button type="button" id="btn-sign-up-email" class="btn btn-success btn-remove-shadow font-color-green pull-left" style="font-size: 18px; width: 150px;">Sign up</button>
