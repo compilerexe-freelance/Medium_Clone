@@ -12,10 +12,10 @@
                     <div class="form-group" style="//margin-top: 20px;">
                         <div class="form-inline">
                             <div class="form-group">
-                                <img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
+                                <img src="assets/images/icons/user.png" style="width: 50px; heigth: 50px;" class="img-circle" alt="">
                             </div>
                             <div class="form-group">
-                                <span for="" style="margin-left: 10px;" class="font-color-green">Macbook Pro<br><span style="margin-left: 10px; font-size: 12px !important;" class="font-color-gray">New Post</span></span>
+                                <span for="" style="margin-left: 10px;" class="font-color-green">Tester 3<br><span style="margin-left: 10px; font-size: 12px !important;" class="font-color-gray">New Post</span></span>
                             </div>
                         </div>
                     </div>

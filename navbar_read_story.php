@@ -9,7 +9,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
+<!--                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">-->
+                Stories
             </a>
         </div>
 
@@ -26,19 +27,30 @@
                     </div>
 
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <button type="button" class="btn btn-info btn-remove-shadow" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>
+                        <a href="write_story.php"><button type="button" class="btn btn-info btn-remove-shadow" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button></a>
                     </div>
-                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <button type="button" class="btn btn-success btn-remove-shadow" style="border-radius: 20px; width: 100%; color: #03B876">Sign In / Sign Up</button>
-                    </div>
-                    <div class="form-group text-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
-                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change to Thai</a></li>
-                            </ul>
-                        </li>
+
+                    <div class="form-group link-gray" style="//padding-left: 10px !important; //padding-right: 10px !important;">
+                        <a href="#"
+                           data-toggle="popover"
+                           data-trigger="focus"
+                           data-html="true"
+                           title=""
+                           data-placement="bottom"
+                           data-content="
+                            <a href='write_story.php'>New story</a><br>
+                            <a href='my_stories.php'>Drafts and stories</a>
+                            <hr style='margin-top: 10px !important;; margin-bottom: 10px !important;'>
+                            <a href='profile.php' style='font-size: 15px !important;'>Profile</a><br>
+                            <a href='setting.php' style='font-size: 15px !important;'>Setting</a><br>
+                            <a href='index.php' style='font-size: 15px !important;'>Sign out</a>
+                           "
+                        >
+                            <img src="assets/images/icons/user.png"
+                                 style="width: 40px !important; height: 40px !important;"
+                                 class="img-circle"
+                                 alt="">
+                        </a>
                     </div>
 
                 </form>
@@ -47,3 +59,9 @@
         </div>
     </div>
 </nav>
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>

@@ -9,17 +9,29 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
+<!--                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">-->
+                Stories
             </a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Latest picks</a></li>
-                <li><a href="#">Following</a></li>
-                <li><a href="#">Top stories</a></li>
-                <li><a href="#">Bookmarks</a></li>
-                <li><a href="#">Knowledge</a></li>
+                <li><a href="index.php">Latest picks</a></li>
+                <li><a href="following.php">Following</a></li>
+                <li><a href="top_stories.php">Top stories</a></li>
+                <li><a href="bookmarks.php">Bookmarks</a></li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </li>
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -31,7 +43,7 @@
                     </div>
 
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <button type="button" class="btn btn-info btn-remove-shadow" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>
+                        <a href="write_story.php"><button type="button" class="btn btn-info btn-remove-shadow" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button></a>
                     </div>
 
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
@@ -59,29 +71,19 @@
                            title=""
                            data-placement="bottom"
                            data-content="
-                            <a href='#'>New story</a><br>
-                            <a href='#'>Drafts and stories</a>
+                            <a href='write_story.php'>New story</a><br>
+                            <a href='my_stories.php'>Drafts and stories</a>
                             <hr style='margin-top: 10px !important;; margin-bottom: 10px !important;'>
                             <a href='profile.php' style='font-size: 15px !important;'>Profile</a><br>
-                            <a href='#' style='font-size: 15px !important;'>Setting</a><br>
-                            <a href='#' style='font-size: 15px !important;'>Sign out</a>
+                            <a href='setting.php' style='font-size: 15px !important;'>Setting</a><br>
+                            <a href='index.php' style='font-size: 15px !important;'>Sign out</a>
                            "
                         >
-                            <img src="assets/images/icons/me.jpg"
+                            <img src="assets/images/icons/user.png"
                                  style="width: 40px !important; height: 40px !important;"
                                  class="img-circle"
                                  alt="">
                         </a>
-                    </div>
-
-                    <div class="form-group text-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
-                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change to Thai</a></li>
-                            </ul>
-                        </li>
                     </div>
 
                 </form>

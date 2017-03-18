@@ -9,7 +9,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
+<!--                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">-->
+                Stories
             </a>
         </div>
 
@@ -68,28 +69,19 @@
                            title=""
                            data-placement="bottom"
                            data-content="
-                            <a href='#'>New story</a><br>
-                            <a href='#'>Drafts and stories</a>
+                            <a href='write_story.php'>New story</a><br>
+                            <a href='my_stories.php'>Drafts and stories</a>
                             <hr style='margin-top: 10px !important;; margin-bottom: 10px !important;'>
-                            <a href='#' style='font-size: 15px !important;'>Profile</a><br>
-                            <a href='#' style='font-size: 15px !important;'>Sign out</a>
+                            <a href='profile.php' style='font-size: 15px !important;'>Profile</a><br>
+                            <a href='setting.php' style='font-size: 15px !important;'>Setting</a><br>
+                            <a href='index.php' style='font-size: 15px !important;'>Sign out</a>
                            "
                             >
-                            <img src="assets/images/icons/me.jpg"
+                            <img src="assets/images/icons/user.png"
                                  style="width: 40px !important; height: 40px !important;"
                                  class="img-circle"
                                  alt="">
                         </a>
-                    </div>
-
-                    <div class="form-group text-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
-                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change to Thai</a></li>
-                            </ul>
-                        </li>
                     </div>
 
                 </form>

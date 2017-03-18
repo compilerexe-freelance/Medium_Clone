@@ -1,25 +1,21 @@
 <?php
 include "header.php";
-$_SESSION['active_menu'] = 'Top stories';
-include "navbar.php";
+$_SESSION['active_menu'] = null;
+include("navbar.php");
 ?>
 
 <div class="container">
+
     <div class="row">
 
-        <div class="col-xs-12 col-sm-12 col-md-7" style="padding-top: 20px;">
+        <div class="col-xs-12 col-sm-12 col-md-12" style="padding-top: 20px; //background-color: #ffffff; //border: 1px solid #cccccc; margin-bottom: 20px;">
 
             <div class="panel panel-default">
                 <div class="panel-body">
 
-                    <div class="form-group text-right">
-                        <span style="font-size: 24px;" class="font-color-gray">January</span>
-                    </div>
-
-                    <div class="form-group" style="//border: 1px solid red;">
-
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-fulid">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-4">
                                 <div class="form-inline">
                                     <div class="form-group" style="margin-top: 20px;">
                                         <a href="profile.php"><img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt=""></a>
@@ -31,7 +27,7 @@ include "navbar.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-fulid" style="margin-top: 20px; padding-bottom: 10px;">
+                            <div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 20px; padding-bottom: 10px;">
                                 <div class="form-group">
                                     <a href="read_story_1.php"><img src="assets/images/article_1.jpg" alt="" class="img-responsive"></a>
                                 </div>
@@ -53,24 +49,22 @@ include "navbar.php";
 
                                     <a href="#"><span class="font-color-gray pull-right"><i class="fa fa-bookmark font-color-green"></i></span></a>
                                 </div>
+                                <div class="form-group text-right">
+                                    <button type="button" class="btn btn-bg-blue" style="width: 130px;"><i class="fa fa-pencil"></i> Edit</button>
+                                </div>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
 
             <div class="panel panel-default">
                 <div class="panel-body">
 
-                    <div class="form-group text-right">
-                        <span style="font-size: 24px;" class="font-color-gray">February</span>
-                    </div>
-
-                    <div class="form-group" style="//border: 1px solid red;">
-
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-fulid">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-4">
                                 <div class="form-inline">
                                     <div class="form-group" style="margin-top: 20px;">
                                         <a href="profile.php"><img src="assets/images/icons/me.jpg" style="width: 50px; heigth: 50px;" class="img-circle" alt=""></a>
@@ -82,16 +76,16 @@ include "navbar.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-fulid" style="margin-top: 20px; padding-bottom: 10px;">
+                            <div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 20px; padding-bottom: 10px;">
                                 <div class="form-group">
-                                    <a href="read_story_1.php"><img src="assets/images/article_2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="read_story_2.php"><img src="assets/images/article_2.JPG" alt="" class="img-responsive"></a>
                                 </div>
                                 <div class="form-group">
-                                    <a href="read_story_1.php"><h3 style="font-weight: bold;">3 Tips you need to know before travel!</h3></a>
+                                    <a href="read_story_2.php"><h3 style="font-weight: bold;">3 Tips you need to know before travel!</h3></a>
                                 </div>
                                 <div class="form-group">
                                     <span style="font-size: 18px;">If this is first trip to travelling I think this is the tips you should do or maybe bring it before your trip</span>
-                                    <a href="read_story_1.php" style="margin-left: 10px;"><span class="font-color-gray"> Read more</span></a>
+                                    <a href="read_story_2.php" style="margin-left: 10px;"><span class="font-color-gray"> Read more</span></a>
                                 </div>
                                 <div class="form-group">
                                     <button type="button" class="btn btn-info btn-remove-hover" style="border-radius: 20px; color: dodgerblue"><i class="fa fa-thumbs-o-up"></i> <span style="color: dodgerblue">15,000</span></button>
@@ -104,51 +98,20 @@ include "navbar.php";
 
                                     <a href="#"><span class="font-color-gray pull-right"><i class="fa fa-bookmark font-color-green"></i></span></a>
                                 </div>
+                                <div class="form-group text-right">
+                                    <button type="button" class="btn btn-bg-blue" style="width: 130px;"><i class="fa fa-pencil"></i> Edit</button>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
 
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-5" style="background-color: #FAFAFA; padding-top: 20px;">
-
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <small><b>TOP STORIES</b></small>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-xs-1 col-sm-12 col-md-1 text-center">
-                        <div class="text-cycle">
-                            <span>1</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-11 col-sm-12 col-md-11">
-                        <span style="padding-left: 10px; line-height: 35px;">How to make your feeling happy!</span><br>
-                        <span style="padding-left: 10px;" class="font-color-gray">Compiler Exe</span>
-                        <hr style="border-color: #f2f2f2">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-1 col-sm-12 col-md-1 text-center">
-                        <div class="text-cycle">
-                            <span>2</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-11 col-sm-12 col-md-11">
-                        <span style="padding-left: 10px; line-height: 35px;">3 Tips you need to know before travel!</span><br>
-                        <span style="padding-left: 10px;" class="font-color-gray">Compiler Exe</span>
-                        <hr style="border-color: #f2f2f2">
-                    </div>
                 </div>
             </div>
 
         </div>
 
     </div>
+
 </div>
 
 <?php include "footer.php"; ?>

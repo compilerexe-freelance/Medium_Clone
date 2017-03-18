@@ -9,7 +9,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">
+<!--                <img src="assets/images/logo.png" class="img-responsive" style="height: 100%;" alt="">-->
+                Stories
             </a>
         </div>
 
@@ -44,12 +45,13 @@
                 ?>
 
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Knowledge
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Windows</a></li>
-                        <li><a href="#">Linux</a></li>
-                        <li><a href="#">OSX</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
                     </ul>
                 </li>
 
@@ -64,23 +66,14 @@
                 <form class="navbar-form navbar-left" action="#" method="post">
 
                     <div class="form-group">
-                        <i class="fa fa-search fa-lg font-color-gray"></i>
+                        <i class="fa fa-search fa-lg font-color-gray" style="margin-left: 10px; margin-bottom: 10px;"></i>
                         <input type="text" class="form-control" placeholder="Tag, Stories, People" style="border-radius: 20px;">
                     </div>
+<!--                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">-->
+<!--                        <button type="button" class="btn btn-info btn-remove-hover" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>-->
+<!--                    </div>-->
                     <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <button type="button" class="btn btn-info btn-remove-hover" style="border-radius: 20px; width: 100%; color: dodgerblue">Write a Story</button>
-                    </div>
-                    <div class="form-group" style="//padding-left: 10px !important; //padding-right: 10px !important;">
-                        <button type="button" class="btn btn-success btn-remove-hover" id="btn-sign-in" style="border-radius: 20px; width: 100%; color: #03B876"">Sign In / Sign Up</button>
-                    </div>
-                    <div class="form-group text-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">&ensp;&ensp;EN
-                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change to Thai</a></li>
-                            </ul>
-                        </li>
+                        <button type="button" class="btn btn-success btn-remove-hover" id="btn-sign-in" style="border-radius: 20px; width: 100%; color: #03B876">Sign In / Sign Up</button>
                     </div>
 
                 </form>
